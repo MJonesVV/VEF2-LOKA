@@ -35,3 +35,5 @@ Alveg öfuggt við light mode, allt svart, hvítur texti
 Það verður ekki mikið texti á vefsíðuna, textinn sem verður alltaf í CAPS, gæti líka verið smá óformlegt, eg ætla að nota font sem hetir HELVETICA NEUE (gæti breytt ef ég finn eitthvað betra)
 
 
+# Ég ætla að taka hugmynd 1 fyrir litaþemu og myndir, ég vill láta þessa vefsíðu líða eins og hún sé alvöru
+
