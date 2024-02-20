@@ -8,9 +8,9 @@ Vefsíðan þarf að vera minimalist (ég hugsa það út af því Kanye er með
 
 >Forsíða (Hérna verður Tour dates)  
 >|_VULTURES (auglýsa plötuna, og hinar plötur sem verða í framtíðina)  
->|_STORE (fer beint á þessa síðu https://yeezy.com/ )  
+>|_STORE (********fer beint á þessa síðu https://yeezy.com/******** Það var original hugmyndin, ætla frekar að gera sjálfur store blaðsíðu, tek samt vörunar frá þessa síðu)  
 >|_TICKETS (staður þar sem það verður hægt að setja email sitt, til þess að fá póst þegar hægt er að kaupa)  
->|_NEWS (fer beint á þessa síðu https://www.yews.news/edition/2-14-24-3pm#top )  
+>|_NEWS (*******fer beint á þessa síðu https://www.yews.news/edition/2-14-24-3pm#top************ er 50/50 hvort ég ætla að hafa þetta, er að hugsa um að ekki hafa þetta)  
 >|_BROTHERS (Þessi vefsíða fólkið sem hjálpaði með plötuna, t.d. Features á lög, producers og co)  
 
 ### HUGMYND 1 FYRIR MYNDIR
