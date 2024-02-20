@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+  }
+:root {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    /*LIGHT THEME*/
+    --lt-bg-1:rgb(255, 255, 255);
+    --lt-txt-1:rgb(0, 0, 0);
+    --lt-txt-2:#606060;
+
+    /*DARK THEME*/
+    --nt-bg-1:rgb(0, 0, 0);
+    --nt-txt-1:rgb(255, 255, 255);
+    --nt-txt-2:#A0A0A0;
+
+}
+
+
+.container {
+    padding: 1rem 2rem 1rem 2rem;
+}
+@media (prefers-color-scheme: dark) {
+	:root {
+		--lt-bg-1: var(--nt-bg-1);
+        --lt-txt-1: var(--nt-txt-1);
+        --lt-txt-2: var(--nt-txt-2);
+	}
+}

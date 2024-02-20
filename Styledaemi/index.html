@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+html {
+    scroll-behavior: smooth;
+  }
+:root {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+
+    --lt-bg-1:rgb(255, 255, 255);
+    --lt-txt-1:rgb(0, 0, 0);
+
+    --nt-bg-1:rgb(0, 0, 0);
+    --nt-txt-1:rgb(255, 255, 255);
+}
+@media (prefers-color-scheme: dark) {
+	:root {
+		--lt-bg-1: var(--nt-bg-1);
+        --lt-txt-1: var(--nt-txt-1);
+	}
+}
+
+body {
+    background-color: var(--lt-bg-1);
+    color: var(--lt-txt-1);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 300;
+    text-align: center;
+}
+.seperation{
+    border-bottom: 2px solid black;
+    padding-bottom: 5rem;
+}
+body {
+    padding: 0 5rem 0 5rem;
+}
+footer {
+    padding: 0 2rem 0 2rem;
+}
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    text-align: center;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .col-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+  }
+table {
+    padding-top: 1rem;
+    border: none;
+    background-color:var(--lt-bg-1);
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+table td {
+    color: var(--lt-txt-1);
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+a {
+    text-decoration: none;
+    color: var(--lt-txt-1);
+}
+</style>
+<body>
+    <h1>FONT STYLE: Helvetica Neue</h1>
+    <section class="seperation">
+        <div>
+            <h3>VEFSIÐAN ER MJÖG MINIMALISTIC</h3>
+            <p>ÞAÐ VERÐUR BARA MEÐ HVÍTT OG SVART, LIGHT OG DARK MODE</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iure iusto aperiam odit excepturi dolorem quisquam nisi dicta quia enim reprehenderit atque fuga tempore provident sit, maiores officia inventore ab.</p>
+        </div>
+    </section>
+    <section class="seperation">
+        <p>daemi hvernig það verður sýnt tour dates</p>
+        <table>
+            <thead>
+                <th>WHERE</th>
+                <th>PLACE</th>
+                <th>WHEN</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>XXXXXXX</td>
+                    <td>XXXXXX XXXXX XX</td>
+                    <td>XX/XX</td>
+                </tr>
+                <tr>
+                    <td>XXXXXXX</td>
+                    <td>XXXXXX XXXXX XX</td>
+                    <td>XX/XX</td>
+                </tr>
+                <tr>
+                    <td>XXXXXXX</td>
+                    <td>XXXXXX XXXXX XX</td>
+                    <td>XX/XX</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </section>
+</body>
+<footer>
+    <p>dæmi um hvernig það verður sýnt samfélagsmiðla</p>
+    <section class="col-2 container seperation">
+        <div>
+           <h2>YZY</h2>
+            <div class="col-3">
+                <a href="#">IG</a>
+                <a href="#">X</a>
+                <a href="#">SP</a>
+            </div>
+        </div>
+        <div>
+            <h2>TY$</h2>
+            <div class="col-3">
+                <a href="#">IG</a>
+                <a href="#">X</a>
+                <a href="#">SP</a>
+            </div>
+        </div>
+    </section>
+    <p>copyright</p>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque nam, inventore numquam minus harum laboriosam necessitatibus ex saepe sed aut quod odit autem est corporis! Ratione fuga <br> 
+            Fugit facere quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae maiores vitae cumque cum vel ratione tenetur minima sequi tempore quod. Quam neque ut voluptatem, harum voluptate hic culpa adipisci commodi?</p>
+    </section>
+</footer>
+</html>
