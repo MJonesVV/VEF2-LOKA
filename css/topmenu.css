@@ -1,0 +1,67 @@
+.logo {
+    color: var(--lt-txt-1);
+    text-align: center;
+    size: 20rem;
+}
+.topnav {
+    background-color: var(--lt-bg-1);
+}
+.topmenu {
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    top: 3rem;
+    right: -100rem;
+    background-color: var(--lt-bg-1);
+    width: 80%;
+    z-index: 98;
+    padding: 2rem;
+    transition: all .5s ease;
+}
+.menuinput:checked ~ .topmenu{
+    right: 0;
+    transition: all .5s ease;
+}
+.menuinput:checked ~ .toplabel{
+    transform: translate(-23px, -3px) rotate(-90deg);
+    transition: all .5s ease;
+}
+.topmenu a {
+    display: block;
+    color: var(--lt-txt-1);
+    padding: .5rem;
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+}
+.social {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.menuinput {
+    display: none;
+}
+.menulabel {
+    color: var(--lt-txt-1);
+    font-size: 2rem;
+    border: 1px solid var(--lt-txt-1);
+}
+
+@media screen and (min-width:48rem) {
+    .topmenu {
+        flex-flow: row;
+        max-width: 80rem;
+        margin: auto;
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        padding: 0;
+        transition: none;
+    }
+    .menulabel {
+        display: none;
+    }
+    
+}
