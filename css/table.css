@@ -2,12 +2,53 @@ table {
     padding-top: 1rem;
     border: none;
     background-color:var(--lt-bg-1);
-    width: 50%;
     text-align: center;
     margin: auto;
+    width: 80%;
 }
 table td {
     color: var(--lt-txt-1);
     text-align: center;
     padding: 1rem 0 1rem 0;
 }
+@media screen and (max-width: 600px) {
+    .tour table {
+      border: 0;
+      width: 100%;
+    }    
+    .tour table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    .tour table tr {
+      display: block;
+      margin-bottom: 1rem;
+    }
+    
+    .tour table td {
+      display: block;
+      text-align: right;
+      width: 94%;
+    }
+    
+    .tour table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .tour table td:last-child {
+      border-bottom: 0;
+    }
+    .tour table tfoot  {
+        width: 100%;
+    }
+  }

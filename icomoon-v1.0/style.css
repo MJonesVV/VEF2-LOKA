@@ -28,7 +28,7 @@
 .icon-VULTURELOGO:before {
   content: "\e900";
   color: var(--lt-txt-1);
-  font-size: 100px;
+  font-size: 10rem
 }
 .icon-share2:before {
   content: "\ea82";
@@ -62,3 +62,9 @@
   content: "\eac3";
   color: var(--lt-txt-1);
 }
+@media screen and (max-width: 768px) {
+  .icon-VULTURELOGO:before {
+    font-size: 7rem;
+  }
+}
+  
