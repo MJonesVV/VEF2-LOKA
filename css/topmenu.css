@@ -1,7 +1,7 @@
-.logo {
+.logo span {
     color: var(--lt-txt-1);
-    text-align: center;
-    size: 20rem;
+    margin: auto;
+    display: none;
 }
 .topnav {
     background-color: var(--lt-bg-1);
@@ -10,52 +10,50 @@
     display: flex;
     flex-flow: column;
     position: fixed;
-    top: 3rem;
-    right: -100rem;
+    top: -100rem;
     background-color: var(--lt-bg-1);
-    width: 80%;
     z-index: 98;
-    padding: 2rem;
     transition: all .5s ease;
+    width: 100%;
 }
 .menuinput:checked ~ .topmenu{
-    right: 0;
+    top: 0;
     transition: all .5s ease;
 }
-.menuinput:checked ~ .toplabel{
-    transform: translate(-23px, -3px) rotate(-90deg);
-    transition: all .5s ease;
-}
+
 .topmenu a {
     display: block;
     color: var(--lt-txt-1);
-    padding: .5rem;
+    padding: 1rem 0 1rem 0;
     text-decoration: none;
     text-align: center;
     flex-grow: 1;
 }
-.social {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
+.topmenu a:hover {
+    border-bottom: 1px solid var(--lt-txt-1);
 }
-.menuinput {
+.menuinput { 
     display: none;
 }
 .menulabel {
+    background-color: var(--lt-bg-1);
+    position: fixed;
+    top: 0;
     color: var(--lt-txt-1);
-    font-size: 2rem;
-    border: 1px solid var(--lt-txt-1);
+    font-size: 10rem;
+    z-index: 1000;
+
+}
+.menulabel:active{
+    opacity: 70%;
 }
 
-@media screen and (min-width:48rem) {
+@media screen and (min-width:768px) {
     .topmenu {
         flex-flow: row;
-        max-width: 80rem;
         margin: auto;
         position: relative;
         top: 0;
-        right: 0;
         width: 100%;
         padding: 0;
         transition: none;
@@ -63,5 +61,18 @@
     .menulabel {
         display: none;
     }
-    
+    .logo span{
+        display: block;
+        color: var(--lt-txt-1);
+        size: 20rem;
+        text-align: center;
+    }
+    .topmenu a {
+        display: block;
+        color: var(--lt-txt-1);
+        padding: .5rem 0 .5rem 0;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+    }
 }

@@ -42,11 +42,15 @@ p {
     border-bottom: 2px solid var(--lt-txt-1);
     padding-bottom: 5rem;
 }
-body {
-    padding: 0 5rem 0 5rem;
+main {
+    justify-content: center;
+    max-width: 60%;
+    margin: auto;
 }
 footer, header {
-    padding: 0 2rem 0 2rem;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
 }
 a {
     text-decoration: none;
