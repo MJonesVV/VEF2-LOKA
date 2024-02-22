@@ -22,6 +22,8 @@
 }
 
 .topmenu a {
+    font-style: normal;
+    font-weight: 400;
     display: block;
     color: var(--lt-txt-1);
     padding: 1rem 0 1rem 0;
@@ -38,7 +40,6 @@
 .menulabel {
     background-color: var(--lt-bg-1);
     position: fixed;
-    top: 0;
     color: var(--lt-txt-1);
     font-size: 10rem;
     z-index: 1000;
@@ -64,7 +65,7 @@
     .logo span{
         display: block;
         color: var(--lt-txt-1);
-        size: 20rem;
+        padding: 1rem;
         text-align: center;
     }
     .topmenu a {
