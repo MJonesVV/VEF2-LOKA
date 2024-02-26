@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="GJG">
+    <title>Verkefni 1. Vinnurammi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/tafla.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/topmenu.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/spjallbox.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+<body>
+  <nav class="topnav">
+    <input type="checkbox" class="menuinput" id="toggle">
+    <label for="toggle" class="menulabel" ><span class="icon-drawing-2"></span></label>
+    <section class="topmenu">
+      <div>
+        <a href="index.html">Logo</a>
+      </div>
+      <a href="index.html"><span class="icon-pacman"></span>Forsida</a>
+      <a href="#"><span class="icon-dribbble"></span>Hvar</a>
+      <a href="#"><span class="icon-wink"></span>Hvenaer</a>
+      <a href="#popup3"><span class="icon-tongue"></span>Sign up</a>
+      <div class="social">
+        <a href="#"><span class="icon-facebook2"></span></a>
+        <a href="#"><span class="icon-instagram"></span></a>
+        <a href="#"><span class="icon-twitch"></span></a>
+      </div>
+    </section>
+  </nav>
+  <header>
+    <section class="landing container">
+      <div>
+        <span class="icon-drawing-2 logos animate__fadeIn"></span>
+        <h1>Kvikun<br></h1>
+        <p>Animation</p>
+      </div>
+      <div class="animate__slideInRight">
+        <img class="phone" src="images/WebDesign.png">
+      </div>
+    </section>
+  </header>
+  <!--banner-->
+  <div class="blueBg">
+    <section class="summary">
+      <section class="slider">
+        <div>
+          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        </div>
+        <div>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, est!</h3>
+        </div>
+        <div>
+          <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+        </div>
+      </section>
+      <table>
+        <thead>
+          <tr class="dokkblar">
+            <th scope="col">WHO</th>
+            <th scope="col">WHERE</th>
+            <th scope="col">WHEN</th>
+            <th scope="col">CHECK IN</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="ljosblar">
+            <td data-label="WHO">Lorem, ipsum.</td>
+            <td data-label="WHERE">Lorem ipsum dolor sit amet.</td>
+            <td data-label="TIME">10:30-12:00</td>
+            <td data-label="CHECK IN"><a class="button" href="#popup1">register</a></td>
+          </tr>
+          <tr class="dokkblar">
+            <td scope="row" data-label="WHO">Lorem, ipsum.</td>
+            <td data-label="WHERE">Lorem ipsum dolor sit amet consectetur.</td>
+            <td data-label="TIME">10:30-12:00</td>
+            <td data-label="CHECK IN"><a class="button" href="#popup2">register</a></td>
+          </tr>
+          <tr class="ljosblar">
+            <td scope="row" data-label="WHO">Lorem, ipsum.</td>
+            <td data-label="WHERE"> Lorem ipsum dolor sit, amet consectetur adipisicing.</td>
+            <td data-label="TIME">13:30-17:00</td>
+            <td data-label="CHECK IN"><a class="button" href="#popup1">register</a></td>
+          </tr>
+          <tr class="dokkblar">
+            <td scope="row" data-label="WHO">Lorem, ipsum dolor.</td>
+            <td data-label="WHERE">Lorem, ipsum.</td>
+            <td data-label="TIME">23:30-00:00</td>
+            <td data-label="CHECK IN"><a class="button" href="#popup1">register</a></td>
+          </tr>
+          <tr  class="ljosblar">
+            <td scope="row" data-label="WHO">Lorem, ipsum dolor.</td>
+            <td data-label="WHERE">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+            <td data-label="TIME">13:30-17:00</td>
+            <td data-label="CHECK IN"><a class="button" href="#popup1">register</a></td>
+          </tr>
+          <tr class="dokkblar">
+            <td scope="row" data-label="WHO">Lorem ipsum dolor sit.</td>
+            <td data-label="WHERE">Lorem ipsum dolor sit amet consectetur.</td>
+            <td data-label="TIME">23:30-00:00</td>
+            <td data-label="CHECK IN"><a class="button" href="#popup1">register</a></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr class="ljosblar">
+            <td class="taflafoot" colspan="4">Tfoot i einu < TD > </td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </div>
+  <main>
+    <section>
+      <form action="#" method="get" class="register">
+        <p>Pöntun</p><br>
+        <p>
+          <label>Nafn:</label><br>
+          <input type="text" name="nafn" placeholder="Full name" required>
+        </p>
+        <p> Kyn:
+          <label>
+          <input type="radio" name="gender" value="hann">
+              Hann |
+          </label>
+          <label>
+              <input type="radio" name="gender" value="hun">
+              Hún |
+          </label>
+          <label>
+              <input type="radio" name="gender" value="han">
+              Hán
+          </label>
+        </p>
+        <p>
+          <label>Símanúmer:</label><br>
+          <input type="tel" name="phone" placeholder="Telephone (7 digits)" required >
+        </p>
+        <p>
+          <label>Tölvupóstur:</label><br>
+          <input type="email" name="email" placeholder="Email address" required >
+        </p>
+        <div class="col-3">
+          <p>
+            <label>Ferðir í boði</label><br>
+            <select required>
+                <option name="val-1">Valmöguleiki 1</option>
+                <option name="val-2">Valmöguleiki 2</option>
+                <option name="val-3">Valmöguleiki 3</option>
+                <option name="val-4">Valmöguleiki 4</option>
+                <option name="val-5">Valmöguleiki 5</option>
+            </select>
+          </p>
+          <p>
+            <label>Fjöldi ferðamanna:</label><br>
+            <select required>
+              <option name="fjold1">1</option>
+              <option name="fjold2">2</option>
+              <option name="fjold3">3</option>
+              <option name="fjold4">4</option>
+            </select>
+          </p>
+          <p>
+            <label>
+            Dagsetning ferðar<br>
+            <input type="date" required>
+            </label>
+          </p>
+        </div>
+        <p>
+          <label>Skilaboð:</label><br>
+          <textarea rows="5" placeholder="Comment"></textarea>
+        </p>
+        
+        <p>
+          <label>
+              <input type="checkbox" value="postlisit">
+              Skráð mig á póstlistann |
+          </label>
+          <label>
+              <input type="checkbox" value="askrift">
+              Gerast áskrifandi
+          </label>
+        </p>
+
+        <p>
+          <label>
+            <input type="checkbox" value="askrift">
+            Sendið mér nánari upplýsingar um 
+          </label>
+          <select class="upplys">
+            <option name="Ferdmog">Ferðamöguleika</option>
+            <option name="korfubolta">Körfubolta</option>
+            <option name="Marijonas">Marijonas</option>
+            <option name="Hunda">Hunda</option>
+          </select>
+        </p>
+        <p class="fardumid">
+          <button>Send</button>
+        </p>
+      </form>
+    </section>
+    <section class="container col-2">
+      <article>
+        <h1>Fyrirsögn</h1>
+        <h5>Áherslutexti H5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis aut repellendus, explicabo quae natus velit sit rem quaerat quibusdam eum tempore, dolore possimus nihil tempora quod ad nesciunt eveniet?</h5>
+        <h2>Undirfyrirsögn</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.
+        <blockquote><em>Blockqoute</em> Aperiam ratione id sunt, et obcaecati numquam repellat, molestias nam sed possimus adipisci similique inventore voluptatum quos repellendus eos reprehenderit nihil laboriosam!</blockquote></p>
+        <h3>Millifyrirsögn</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>      
+      </article>
+      <section>
+        <figure>
+          <img src="images/placeholder2.png">
+        </figure>
+        <h3>Millifyrirsögn</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+        <h4>Áherslutexti H4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est, reprehenderit labore rerum ratione aliquid illum! Officia nisi esse dolor quis sed porro, amet doloribus, qui odio quas voluptatibus blanditiis.</h4>
+        <h6>Undirmálstexti H6. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</h6>
+      </section>
+    </section>
+    <section class="container">
+      <div class="col-1 rammi">
+        <div>CSS GRID col-1</div>
+      </div>
+      <div class="col-2 rammi">
+        <div>col-2</div>
+        <div>col-2</div>
+      </div>
+      <div class="col-3 rammi">
+        <div>col-3</div>
+        <div>col-3</div>
+        <div>col-3</div>
+      </div>
+      <div class="col-4 rammi">
+        <div>col-4</div>
+        <div>col-4</div>
+        <div>col-4</div>
+        <div>col-4</div>
+      </div>
+      <div class="col-5 rammi">
+        <div>col-5</div>
+        <div>col-5</div>
+        <div>col-5</div>
+        <div>col-5</div>
+        <div>col-5</div>
+      </div>
+      <div class="col-6 rammi">
+        <div>col-6</div>
+        <div>col-6</div>
+        <div>col-6</div>
+        <div>col-6</div>
+        <div>col-6</div>
+        <div>col-6</div>
+      </div>
+      <hr>
+    </section>
+  </main>
+  <footer class="container col-3">
+    <nav>
+      <ul class="footerUL">
+        <li>Eveniet ducimus pariatur voluptate</li>
+        <li>Vitae animi, sed provident fuga</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Provident sit aliquid a consequuntur</li>
+      </ul>
+    </nav>
+    <nav>
+      <ul class="footerUL">
+        <li>Eveniet ducimus pariatur voluptate</li>
+        <li>Vitae animi, sed provident fuga</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Provident sit aliquid a consequuntur</li>
+      </ul>
+    </nav>
+    <dl>              <!--Description list -->
+      <dt>Nafn</dt>
+        <dd>Marijonas Valdas Varkulevicius</dd>
+      <dt>Tölvupóstur</dt>
+        <dd>Marijonasvaldas1@gmail.com</dd>
+      <dt>Vefhönnun</dt>
+        <dd>VEFÞ2VHB5AU, tölvubraut Tækniskólans</dd>
+    </dl>
+  </footer>
+    <p class="center">&copy 2024 MVV</p>
+
+
+    <!----spjalbox-->
+  
+
+    <input type="checkbox" class="spjallinput" id="spjall">
+    <label for="spjall" class="spjalllabel" >?</label>
+
+    <section class="spjallform">
+        <form action="#" method="get" class="spjalltalk">
+          <p>Spjallbox</p>
+          <label for="name">Nafn: </label><br>
+          <input type="text" name="nafn" id="name"><br>
+          <label for="postur">Tölvupóstur: </label><br>
+          <input type="email" name="email" id="postur">
+          <label>Skilaboð:</label><br>
+          <textarea rows="5" placeholder="Skilaboð"></textarea><br>
+          <button class="fardumid">Senda</button>
+        </form>
+    </section>
+
+    <!----spjalbox-->
+
+
+
+
+
+
+    <div id="popup1" class="overlay close">
+      <div class="popup">
+        <h2>pop1</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          :)
+        </div>
+      </div>
+    </div>
+    <div id="popup2" class="overlay close">
+      <div class="popup">
+        <h2>popopop 2</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+         yuh
+        </div>
+      </div>
+    </div>
+    <div id="popup3" class="overlay close">
+      <div class="popup">
+        <h2>Sign up</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+         <form action="#" method="get">
+          <label for="idname">Nafn: </label><br>
+          <input type="text" name="nafn" id="idname"><br>
+          <label for="passw">Password: </label><br>
+          <input type="password" name="password" id="passw">
+          
+          <button>Sign Up</button>
+         </form>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>

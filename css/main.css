@@ -40,7 +40,9 @@ p {
     border-bottom: 2px solid var(--lt-txt-1);
     padding-bottom: 3rem;
 }
-
+body {
+    background-color: var(--lt-bg-1);
+}
 footer, header, main {
     justify-content: center;
     max-width: 80%;
