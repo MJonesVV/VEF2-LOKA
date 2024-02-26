@@ -10,6 +10,12 @@
     row-gap: 2rem;
     text-align: center;
 }
+.col-3-store {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+  text-align: center;
+}
 @media screen and (min-width: 360px) {
     .col-2 {
       display: grid;
@@ -27,5 +33,10 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 1rem;
+    }
+    .col-3-store {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      text-align: center;
     }
   }
