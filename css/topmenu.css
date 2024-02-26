@@ -6,6 +6,7 @@
 .topnav {
     background-color: var(--lt-bg-1);
     padding: 0 0 15rem 0;
+
 }
 .topmenu {
     display: flex;
@@ -55,6 +56,7 @@
     .topnav {
         background-color: var(--lt-bg-1);
         padding: 0;
+        margin-bottom: 2rem;
     }
     .topmenu {
         flex-flow: row;

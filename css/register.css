@@ -1,0 +1,25 @@
+.notify {
+    color: var(--lt-txt-1);
+    border: 1px solid var(--lt-txt-1);
+    background-color: var(--lt-bg-1);
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+}
+input[type="text"],
+input[type="email"],
+select {
+    border: none;
+    border-bottom: 1px solid var(--lt-txt-1);
+    color: var(--lt-txt-1);
+	width: 70%;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: var(--lt-bg-1);
+}
+select option {
+    font-size: 1rem;
+    
+}
+
+
